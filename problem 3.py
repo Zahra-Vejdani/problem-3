@@ -5,7 +5,7 @@ sub2=float(input("enter your second grade: "))
 sub3=float(input("enter your third grade: "))
 avr=(sub1+sub2+sub3)/3
 
-if avr>17:
+if avr>=17:
     print(name + last_name, ",you are Great!")
 
 if 12<=avr<17:
